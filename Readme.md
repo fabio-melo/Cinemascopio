@@ -1,3 +1,4 @@
 # Cinemascópio
 
-Programa para gerenciar bibliotecas de Filmes. desenvolvido como projeto final da disciplina de Linguagens de Programção 1.
+Programa para gerenciar bibliotecas de Filmes.
+Desenvolvido como projeto final da disciplina de Linguagens de Programação 1.
