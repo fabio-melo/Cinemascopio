@@ -4,7 +4,6 @@ package com.lp1.cinemascopium;
 import java.util.ArrayList;
 
 /**
- * Created by Fabio Melo on 02/11/2016.
  * Classe que gerencia o formato da biblioteca
  */
 public class Filmes {
@@ -23,7 +22,8 @@ public class Filmes {
     private ArrayList<String> Atores = new ArrayList<>();
     private String Direção;
 
-    public Filmes(ArrayList<String> categorias, int ano_Produção, String país_Produção, String cidade_Produção, String estado_Produção, int ano_Lançamento, String pais_Lançamento, String cidade_Lançamento, String estado_Produção1, String sinopse, String gênero, String prêmios, ArrayList<String> atores, String direção) {
+    /* Construtor Padrão */
+    public Filmes(ArrayList<String> categorias, int ano_Produção, String país_Produção, String cidade_Produção, String estado_Produção, int ano_Lançamento, String pais_Lançamento, String cidade_Lançamento, String estado_Lançamento, String sinopse, String gênero, String prêmios, ArrayList<String> atores, String direção) {
         Categorias = categorias;
         Ano_Produção = ano_Produção;
         País_Produção = país_Produção;
@@ -32,7 +32,7 @@ public class Filmes {
         Ano_Lançamento = ano_Lançamento;
         Pais_Lançamento = pais_Lançamento;
         Cidade_Lançamento = cidade_Lançamento;
-        Estado_Produção = estado_Produção1;
+        Estado_Produção = estado_Lançamento;
         Sinopse = sinopse;
         Gênero = gênero;
         Prêmios = prêmios;
@@ -147,20 +147,20 @@ public class Filmes {
     @Override
     public String toString() {
         return "Filmes{" +
-                "Categorias=" + Categorias +
-                ", Ano_Produção=" + Ano_Produção +
-                ", País_Produção='" + País_Produção + '\'' +
-                ", Cidade_Produção='" + Cidade_Produção + '\'' +
-                ", Estado_Produção='" + Estado_Produção + '\'' +
-                ", Ano_Lançamento=" + Ano_Lançamento +
-                ", Pais_Lançamento='" + Pais_Lançamento + '\'' +
-                ", Cidade_Lançamento='" + Cidade_Lançamento + '\'' +
-                ", Estado_Produção='" + Estado_Produção + '\'' +
-                ", Sinopse='" + Sinopse + '\'' +
-                ", Gênero='" + Gênero + '\'' +
-                ", Prêmios='" + Prêmios + '\'' +
-                ", Atores=" + Atores +
-                ", Direção='" + Direção + '\'' +
+                "Categoria: " + Categorias +
+                ", Ano de Produção:" + Ano_Produção +
+                ", País de Produção:'" + País_Produção + '\'' +
+                ", Cidade de Produção:'" + Cidade_Produção + '\'' +
+                ", Estado de Produção:'" + Estado_Produção + '\'' +
+                ", Ano de Lançamento:" + Ano_Lançamento +
+                ", País de Lançamento:" + Pais_Lançamento + '\'' +
+                ", Cidade de Lançamento:" + Cidade_Lançamento + '\'' +
+                ", Estado de Produção:'" + Estado_Lançamento + '\'' +
+                ", Sinopse:'" + Sinopse + '\'' +
+                ", Gênero:'" + Gênero + '\'' +
+                ", Prêmios:'" + Prêmios + '\'' +
+                ", Atores:" + Atores +
+                ", Direção:'" + Direção + '\'' +
                 '}';
     }
 }

@@ -1,9 +1,11 @@
 package com.lp1.cinemascopium;
 
-public class Main {
+import javax.swing.*;
 
+public class Main {
+    /* TESTE */
     public static void main(String[] args) {
-	// write your code here
-        System.out.println("test");
+        // write your code here
+
     }
 }
