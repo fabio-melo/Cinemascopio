@@ -5,4 +5,11 @@ package com.lp1.cinemascopium;
  * Classe que transforma o arquivo serializado em um arquivo legível por humanos (XML ou JSON). para permitir a importação e exportação de dados
  */
 public class Serialização_Legibilidade {
+
+
+    private int Serializable
+    }
 }
+
+
+
